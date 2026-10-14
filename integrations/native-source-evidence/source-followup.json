@@ -1,0 +1,9 @@
+{
+  "project": "sing-box",
+  "revision": "af6e64c3b69e6132ebaee0e1a3d24e93903f6709",
+  "path": "option/simple.go",
+  "url": "https://raw.githubusercontent.com/SagerNet/sing-box/af6e64c3b69e6132ebaee0e1a3d24e93903f6709/option/simple.go",
+  "bytes": 1275,
+  "sha256": "438e5ad73e30070ec270eeaed5f1cfa0faed6d9dc7616ac859736111fb807452",
+  "reason": "actual pinned SOCKSOutboundOptions is declared in simple.go; original socks.go HTTP error preserved"
+}

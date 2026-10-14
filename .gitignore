@@ -1,0 +1,63 @@
+/credentials*/
+/bin/
+/dist/
+/.staging/
+/lab/runs/
+/lab/__pycache__/
+*.exe
+*.test
+.build-cache/
+.gocache-product/
+.gomodcache-product/
+.test-tmp/
+.go-telemetry/
+.manual-credentials-check/
+/deploy/current.json
+/deploy/runs/
+/deploy/__pycache__/
+/deploy/pilot.lock
+
+# Local caches and temporary workspaces.
+/.gocache*/
+/.gomodcache*/
+/.build-cache/
+/.test-tmp/
+__pycache__/
+*.py[cod]
+*.tmp
+*.lock.tmp
+
+# Runtime secrets and local-only artifacts.
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.pfx
+*.p12
+# Exact public upstream certificate fixtures required by Mihomo tests.
+!/integrations/mihomo/source/test/config/example.org.pem
+!/integrations/mihomo/source/test/config/example.org-key.pem
+*.log
+*.jsonl
+*.zip
+*.tar.gz
+*.dll
+*.test.exe
+/integrations/*/results/
+/integrations/*/upstream-source/
+
+# Keep verification tooling, tests and descriptions; generated evidence and
+# copied source snapshots remain local. Public status is documented in docs.
+/verification/**
+!/verification/**/
+!/verification/**/*.py
+!/verification/**/*.ps1
+!/verification/**/*.go
+!/verification/**/go.mod
+!/verification/**/go.sum
+!/verification/**/*.md
+/verification/**/runs/
+/verification/**/source*/
+/verification/root-promotion-next25-attempt01/
+/verification/**/__pycache__/

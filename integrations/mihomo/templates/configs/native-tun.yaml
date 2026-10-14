@@ -1,0 +1,38 @@
+# TUN changes the host network and requires administrator/root privileges.
+mixed-port: 17890
+allow-lan: false
+mode: rule
+log-level: info
+ipv6: true
+proxies:
+  - name: BFP
+    type: bfp
+    udp: true
+    client-config-file: ./credentials/client.json
+proxy-groups:
+  - name: PROXY
+    type: select
+    proxies: [BFP]
+rules:
+  - MATCH,PROXY
+profile:
+  store-selected: false
+  store-fake-ip: false
+dns:
+  enable: true
+  listen: 127.0.0.1:1053
+  ipv6: true
+  enhanced-mode: fake-ip
+  fake-ip-session-proxy: BFP
+  fake-ip-range: 198.18.0.1/15
+  fake-ip-range6: fd42:6266:7000::/96
+  nameserver: [1.1.1.1, 8.8.8.8]
+  proxy-server-nameserver: [1.1.1.1, 8.8.8.8]
+tun:
+  enable: true
+  device: bfp-tun
+  stack: gvisor
+  auto-route: true
+  auto-detect-interface: true
+  strict-route: true
+  dns-hijack: [any:53]

@@ -1,0 +1,116 @@
+{
+  "scope": "read-only bounded upstream API inspection; no clone, patch, build or deployment",
+  "max_file_bytes": 131072,
+  "concurrency": 3,
+  "files": [
+    {
+      "project": "mihomo",
+      "revision": "88dcbf7f1614a67c3b36b848ee3592dfa92ada36",
+      "path": "constant/adapters.go",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/mihomo/88dcbf7f1614a67c3b36b848ee3592dfa92ada36/constant/adapters.go",
+      "status": "saved",
+      "bytes": 7399,
+      "sha256": "ac639e5f9d3b07c80455ff43a189a63a456eee04da5cababf3792a955ad13bc2"
+    },
+    {
+      "project": "mihomo",
+      "revision": "88dcbf7f1614a67c3b36b848ee3592dfa92ada36",
+      "path": "constant/metadata.go",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/mihomo/88dcbf7f1614a67c3b36b848ee3592dfa92ada36/constant/metadata.go",
+      "status": "saved",
+      "bytes": 7955,
+      "sha256": "ea17eb033f6b82ec8d7882a7608a04db2edd785eef9c2a50ffe191cb2674afc4"
+    },
+    {
+      "project": "mihomo",
+      "revision": "88dcbf7f1614a67c3b36b848ee3592dfa92ada36",
+      "path": "adapter/parser.go",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/mihomo/88dcbf7f1614a67c3b36b848ee3592dfa92ada36/adapter/parser.go",
+      "status": "saved",
+      "bytes": 7804,
+      "sha256": "e57a1b05b809a1f0fea0c283711d5e36f5e75ed334bd76762b4a7e9b28a270c8"
+    },
+    {
+      "project": "mihomo",
+      "revision": "88dcbf7f1614a67c3b36b848ee3592dfa92ada36",
+      "path": "adapter/outbound/base.go",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/mihomo/88dcbf7f1614a67c3b36b848ee3592dfa92ada36/adapter/outbound/base.go",
+      "status": "saved",
+      "bytes": 9844,
+      "sha256": "3fa3ca60847a87c524e300e182ef54d8bd8a8e0c949ff0aae784412704604bb0"
+    },
+    {
+      "project": "mihomo",
+      "revision": "88dcbf7f1614a67c3b36b848ee3592dfa92ada36",
+      "path": "adapter/outbound/socks5.go",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/mihomo/88dcbf7f1614a67c3b36b848ee3592dfa92ada36/adapter/outbound/socks5.go",
+      "status": "saved",
+      "bytes": 6560,
+      "sha256": "e868055e8ce0d9f011d6b602d28977f8297d0e9d31e57306c68458527694aa9b"
+    },
+    {
+      "project": "sing-box",
+      "revision": "af6e64c3b69e6132ebaee0e1a3d24e93903f6709",
+      "path": "adapter/outbound.go",
+      "url": "https://raw.githubusercontent.com/SagerNet/sing-box/af6e64c3b69e6132ebaee0e1a3d24e93903f6709/adapter/outbound.go",
+      "status": "saved",
+      "bytes": 1274,
+      "sha256": "2e1add24b6288a797721485c2f11bfe924a2326295fcc11a4a4d0e06da541474"
+    },
+    {
+      "project": "sing-box",
+      "revision": "af6e64c3b69e6132ebaee0e1a3d24e93903f6709",
+      "path": "adapter/outbound/registry.go",
+      "url": "https://raw.githubusercontent.com/SagerNet/sing-box/af6e64c3b69e6132ebaee0e1a3d24e93903f6709/adapter/outbound/registry.go",
+      "status": "saved",
+      "bytes": 2470,
+      "sha256": "6fdae920d618a373e5c596e96d1dd5629aef5b2da41d8da708d600075cc7ecbc"
+    },
+    {
+      "project": "sing-box",
+      "revision": "af6e64c3b69e6132ebaee0e1a3d24e93903f6709",
+      "path": "include/registry.go",
+      "url": "https://raw.githubusercontent.com/SagerNet/sing-box/af6e64c3b69e6132ebaee0e1a3d24e93903f6709/include/registry.go",
+      "status": "saved",
+      "bytes": 6284,
+      "sha256": "cbc7bc06391fe555828782df7bc1ce0844e446a82647448739dbb3e8e3eef19e"
+    },
+    {
+      "project": "sing-box",
+      "revision": "af6e64c3b69e6132ebaee0e1a3d24e93903f6709",
+      "path": "protocol/socks/outbound.go",
+      "url": "https://raw.githubusercontent.com/SagerNet/sing-box/af6e64c3b69e6132ebaee0e1a3d24e93903f6709/protocol/socks/outbound.go",
+      "status": "saved",
+      "bytes": 3924,
+      "sha256": "7567857030ca9aa5aebb598d4938538e4b39754bd619373ff163364fff64f2f0"
+    },
+    {
+      "project": "sing-box",
+      "revision": "af6e64c3b69e6132ebaee0e1a3d24e93903f6709",
+      "path": "option/outbound.go",
+      "url": "https://raw.githubusercontent.com/SagerNet/sing-box/af6e64c3b69e6132ebaee0e1a3d24e93903f6709/option/outbound.go",
+      "status": "saved",
+      "bytes": 7497,
+      "sha256": "811dfffc1f9bbbbc05c3e7e0afcfe291a5706e357558939d87b0a2a600332b12"
+    },
+    {
+      "project": "sing-box",
+      "revision": "af6e64c3b69e6132ebaee0e1a3d24e93903f6709",
+      "path": "option/socks.go",
+      "url": "https://raw.githubusercontent.com/SagerNet/sing-box/af6e64c3b69e6132ebaee0e1a3d24e93903f6709/option/socks.go",
+      "status": "unavailable",
+      "error_type": "HTTPError"
+    },
+    {
+      "project": "sing-box",
+      "revision": "af6e64c3b69e6132ebaee0e1a3d24e93903f6709",
+      "path": "adapter/inbound.go",
+      "url": "https://raw.githubusercontent.com/SagerNet/sing-box/af6e64c3b69e6132ebaee0e1a3d24e93903f6709/adapter/inbound.go",
+      "status": "saved",
+      "bytes": 5615,
+      "sha256": "6d519d170255b003b27df5f79606029847ab623c5c8e4226993acf2e3ef08498"
+    }
+  ],
+  "native_outbound_implemented": false,
+  "native_build_verified": false
+}
